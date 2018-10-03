@@ -2,7 +2,7 @@ var songTrack = "";
 var songArtist = "";
 var trackName = "";
 var artistName = "";
-var lastFMUrl = "http://ws.audioscrobbler.com/2.0/?method=track.search&api_key=89797b222e5b4d2d93ff19e4b83e21e4&limit=15"
+var lastFMUrl = "https://ws.audioscrobbler.com/2.0/?method=track.search&api_key=89797b222e5b4d2d93ff19e4b83e21e4&limit=15"
 $("#search").on("click", function (e) {
     e.preventDefault();
 
